@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-secure-site/brute-force-protection" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.4.0">
+<title data-rh="true">Brute Force Protection | Plugir</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://docs.plugir.com/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://docs.plugir.com/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://docs.plugir.com/docs/secure-site/brute-force-protection"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Brute Force Protection | Plugir"><meta data-rh="true" name="description" content="The Brute Force Protection tab allows you to configure various settings to protect your WordPress site from brute force attacks. Below are the descriptions, advantages, and disadvantages of each option:"><meta data-rh="true" property="og:description" content="The Brute Force Protection tab allows you to configure various settings to protect your WordPress site from brute force attacks. Below are the descriptions, advantages, and disadvantages of each option:"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://docs.plugir.com/docs/secure-site/brute-force-protection"><link data-rh="true" rel="alternate" href="https://docs.plugir.com/docs/secure-site/brute-force-protection" hreflang="en"><link data-rh="true" rel="alternate" href="https://docs.plugir.com/docs/secure-site/brute-force-protection" hreflang="x-default"><link rel="stylesheet" href="/assets/css/styles.e253a76f.css">
+<script src="/assets/js/runtime~main.f29a33bd.js" defer="defer"></script>
+<script src="/assets/js/main.43164c28.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/plugir.svg" alt="Plugir" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/plugir.svg" alt="Plugir" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate"></b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/category/wp-secure">Tutorial</a></div><div class="navbar__items navbar__items--right"><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" href="/docs/category/wp-secure">WP Secure</a><button aria-label="Collapse sidebar category &#x27;WP Secure&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/secure-site/intro">Introduction</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/secure-site/installation">Installation</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/secure-site/general-settings">General Settings</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/secure-site/admin-login-url">Admin Login URL</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/docs/secure-site/brute-force-protection">Brute Force Protection</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/secure-site/security-headers">Security Headers</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/secure-site/database">Database</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/secure-site/htacess-security">Htaccess Security</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/secure-site/session-timeout">Session Timeout</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/secure-site/login-attempts">Login Attempts</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/secure-site/tools">Tools</a></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/docs/category/wp-secure"><span itemprop="name">WP Secure</span></a><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Brute Force Protection</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Brute Force Protection</h1></header><p>The <strong>Brute Force Protection</strong> tab allows you to configure various settings to protect your WordPress site from brute force attacks. Below are the descriptions, advantages, and disadvantages of each option:</p>
+<p><img decoding="async" loading="lazy" alt="Brute Force Protection" src="/assets/images/brute-force-protection-efa7e9364417f7728105bf6cfc8f30d3.png" width="943" height="836" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="enable-successful-login-logging">Enable Successful Login Logging<a class="hash-link" aria-label="Direct link to Enable Successful Login Logging" title="Direct link to Enable Successful Login Logging" href="/docs/secure-site/brute-force-protection#enable-successful-login-logging">​</a></h3>
+<ul>
+<li><strong>Description</strong>: Logs all successful login attempts for monitoring purposes.</li>
+<li><strong>Advantages</strong>:<!-- -->
+<ul>
+<li>Helps in tracking login activity and identifying any unauthorized access.</li>
+</ul>
+</li>
+<li><strong>Disadvantages</strong>:<!-- -->
+<ul>
+<li>Storing too many logs can consume database space.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="enable-failed-login-logging">Enable Failed Login Logging<a class="hash-link" aria-label="Direct link to Enable Failed Login Logging" title="Direct link to Enable Failed Login Logging" href="/docs/secure-site/brute-force-protection#enable-failed-login-logging">​</a></h3>
+<ul>
+<li><strong>Description</strong>: Logs all failed login attempts to identify potential security threats.</li>
+<li><strong>Advantages</strong>:<!-- -->
+<ul>
+<li>Helps in detecting brute force attacks and taking preventive measures.</li>
+</ul>
+</li>
+<li><strong>Disadvantages</strong>:<!-- -->
+<ul>
+<li>Storing too many logs can consume database space.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="login-attempt-limit">Login Attempt Limit<a class="hash-link" aria-label="Direct link to Login Attempt Limit" title="Direct link to Login Attempt Limit" href="/docs/secure-site/brute-force-protection#login-attempt-limit">​</a></h3>
+<ul>
+<li><strong>Description</strong>: Limits the number of login attempts to prevent brute force attacks. If the limit is exceeded, the user is temporarily locked out.</li>
+<li><strong>Advantages</strong>:<!-- -->
+<ul>
+<li>Prevents automated scripts from repeatedly trying to guess passwords.</li>
+</ul>
+</li>
+<li><strong>Disadvantages</strong>:<!-- -->
+<ul>
+<li>May temporarily lock out legitimate users who forget their passwords.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="lockout-duration-minutes">Lockout Duration (minutes)<a class="hash-link" aria-label="Direct link to Lockout Duration (minutes)" title="Direct link to Lockout Duration (minutes)" href="/docs/secure-site/brute-force-protection#lockout-duration-minutes">​</a></h3>
+<ul>
+<li><strong>Description</strong>: Specifies the duration (in minutes) for which a user is locked out after exceeding the login attempt limit.</li>
+<li><strong>Advantages</strong>:<!-- -->
+<ul>
+<li>Provides a cooldown period, reducing the risk of repeated brute force attempts.</li>
+</ul>
+</li>
+<li><strong>Disadvantages</strong>:<!-- -->
+<ul>
+<li>Legitimate users may need to wait before they can attempt to log in again.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="your-current-ip-address">Your Current IP Address<a class="hash-link" aria-label="Direct link to Your Current IP Address" title="Direct link to Your Current IP Address" href="/docs/secure-site/brute-force-protection#your-current-ip-address">​</a></h3>
+<ul>
+<li><strong>Description</strong>: Displays the current IP address of the user accessing the settings.</li>
+<li><strong>Advantages</strong>:<!-- -->
+<ul>
+<li>Helps in identifying the current IP address for whitelisting purposes.</li>
+</ul>
+</li>
+<li><strong>Disadvantages</strong>:<!-- -->
+<ul>
+<li>None.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="whitelisted-ips">Whitelisted IPs<a class="hash-link" aria-label="Direct link to Whitelisted IPs" title="Direct link to Whitelisted IPs" href="/docs/secure-site/brute-force-protection#whitelisted-ips">​</a></h3>
+<ul>
+<li><strong>Description</strong>: Allows you to specify IP addresses that are exempt from login attempt limits. Enter one IP address per line.</li>
+<li><strong>Advantages</strong>:<!-- -->
+<ul>
+<li>Ensures that trusted IP addresses are not locked out, even if they exceed the login attempt limit.</li>
+</ul>
+</li>
+<li><strong>Disadvantages</strong>:<!-- -->
+<ul>
+<li>A compromised whitelisted IP can bypass brute force protection.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ip-blacklisting">IP Blacklisting<a class="hash-link" aria-label="Direct link to IP Blacklisting" title="Direct link to IP Blacklisting" href="/docs/secure-site/brute-force-protection#ip-blacklisting">​</a></h3>
+<ul>
+<li><strong>Description</strong>: Allows you to specify IP addresses that are blocked from accessing the site. Enter one IP address per line.</li>
+<li><strong>Advantages</strong>:<!-- -->
+<ul>
+<li>Prevents known malicious IP addresses from attempting to log in.</li>
+</ul>
+</li>
+<li><strong>Disadvantages</strong>:<!-- -->
+<ul>
+<li>A legitimate user using a blacklisted IP address will be unable to access the site.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="example-configuration">Example Configuration<a class="hash-link" aria-label="Direct link to Example Configuration" title="Direct link to Example Configuration" href="/docs/secure-site/brute-force-protection#example-configuration">​</a></h3>
+<ul>
+<li>
+<p><strong>Enable Successful Login Logging</strong>: Toggle this option to enable or disable logging of successful login attempts.</p>
+</li>
+<li>
+<p><strong>Enable Failed Login Logging</strong>: Toggle this option to enable or disable logging of failed login attempts.</p>
+</li>
+<li>
+<p><strong>Login Attempt Limit</strong>: Set the maximum number of allowed login attempts before locking out the user.</p>
+</li>
+<li>
+<p><strong>Lockout Duration (minutes)</strong>: Set the duration for which the user is locked out after exceeding the login attempt limit.</p>
+</li>
+<li>
+<p><strong>Your Current IP Address</strong>: Displays the current IP address.</p>
+</li>
+<li>
+<p><strong>Whitelisted IPs</strong>: Enter IP addresses to whitelist, one per line.</p>
+</li>
+<li>
+<p><strong>IP Blacklisting</strong>: Enter IP addresses to blacklist, one per line.</p>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tips-for-brute-force-protection">Tips for Brute Force Protection<a class="hash-link" aria-label="Direct link to Tips for Brute Force Protection" title="Direct link to Tips for Brute Force Protection" href="/docs/secure-site/brute-force-protection#tips-for-brute-force-protection">​</a></h3>
+<ul>
+<li>Regularly monitor login logs to identify any suspicious activity.</li>
+<li>Use strong, unique passwords for all user accounts.</li>
+<li>Whitelist trusted IP addresses to ensure they are not accidentally locked out.</li>
+</ul>
+<p>By configuring these settings, you can significantly enhance the security of your WordPress site against brute force attacks.</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/secure-site/admin-login-url"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Admin Login URL</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/secure-site/security-headers"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Security Headers</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a class="table-of-contents__link toc-highlight" href="/docs/secure-site/brute-force-protection#enable-successful-login-logging">Enable Successful Login Logging</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/secure-site/brute-force-protection#enable-failed-login-logging">Enable Failed Login Logging</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/secure-site/brute-force-protection#login-attempt-limit">Login Attempt Limit</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/secure-site/brute-force-protection#lockout-duration-minutes">Lockout Duration (minutes)</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/secure-site/brute-force-protection#your-current-ip-address">Your Current IP Address</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/secure-site/brute-force-protection#whitelisted-ips">Whitelisted IPs</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/secure-site/brute-force-protection#ip-blacklisting">IP Blacklisting</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/secure-site/brute-force-protection#example-configuration">Example Configuration</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/secure-site/brute-force-protection#tips-for-brute-force-protection">Tips for Brute Force Protection</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 Plugir. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
