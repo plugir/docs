@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwp_secure=self.webpackChunkwp_secure||[]).push([[537],{1974:e=>{e.exports=JSON.parse('{"categoryGeneratedIndex":{"title":"WP Secure","slug":"/category/wp-secure","permalink":"/docs/category/wp-secure","sidebar":"tutorialSidebar","navigation":{"next":{"title":"Introduction","permalink":"/docs/secure-site/intro"}}}}')}}]);
