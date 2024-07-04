@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwp_secure=self.webpackChunkwp_secure||[]).push([[189],{657:e=>{e.exports=JSON.parse('{"categoryGeneratedIndex":{"title":"ContentGuard","slug":"/category/contentguard","permalink":"/docs/category/contentguard","sidebar":"tutorialSidebar","navigation":{"next":{"title":"Introduction","permalink":"/docs/content-guard/intro"}}}}')}}]);
